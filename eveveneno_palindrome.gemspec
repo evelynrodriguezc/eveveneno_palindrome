@@ -8,8 +8,8 @@ Gem::Specification.new do |spec|
   spec.authors = ["Evelyn R"]
   spec.email = ["evelynrodriguezc0@gmail.com"]
 
-  spec.summary = "TODO: Write a short summary, because RubyGems requires one."
-  spec.description = "TODO: Write a longer description or delete this line."
+  spec.summary = "Palindrome detector"
+  spec.description = "Learn Enough Ruby palindrome detector"
   spec.homepage = "TODO: Put your gem's website or public repo URL here."
   spec.required_ruby_version = ">= 3.0.0"
 
