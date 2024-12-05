@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
 
   spec.summary = "Palindrome detector"
   spec.description = "Learn Enough Ruby palindrome detector"
-  spec.homepage = "TODO: Put your gem's website or public repo URL here."
+  spec.homepage = "https://github.com/evelynrodriguezc/eveveneno_palindrome"
   spec.required_ruby_version = ">= 3.0.0"
 
   spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"

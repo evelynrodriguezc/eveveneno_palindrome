@@ -1,0 +1,31 @@
+PATH
+  remote: .
+  specs:
+    eveveneno_palindrome (0.1.0)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    ansi (1.5.0)
+    builder (3.3.0)
+    minitest (5.25.4)
+    minitest-reporters (1.2.0)
+      ansi
+      builder
+      minitest (>= 5.0)
+      ruby-progressbar
+    rake (13.2.1)
+    ruby-progressbar (1.13.0)
+
+PLATFORMS
+  arm64-darwin-24
+  ruby
+
+DEPENDENCIES
+  eveveneno_palindrome!
+  minitest (~> 5.16)
+  minitest-reporters (= 1.2.0)
+  rake (~> 13.0)
+
+BUNDLED WITH
+   2.5.23
