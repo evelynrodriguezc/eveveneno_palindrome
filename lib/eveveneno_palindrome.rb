@@ -10,7 +10,7 @@ module EvevenenoPalindrome
 
         # Returns content for palindrome testing.
         def processed_content
-          self.to_s.scan(/[a-z\d]/i).join.downcase
+          to_s.scan(/[a-z0-9]/i).join.downcase
         end
 end
 
