@@ -16,7 +16,7 @@ Gem::Specification.new do |spec|
   spec.files         = Dir["lib/**/*", "test/**/*", "README.md"]
   spec.require_paths = ["lib"]
 
-  spec.metadata["allowed_push_host"] = "TODO: Set to your gem server 'https://example.com'"
+  spec.metadata["allowed_push_host"] = "https://rubygems.org"'"
 
   spec.metadata["homepage_uri"] = spec.homepage
   spec.metadata["source_code_uri"] = "https://github.com/evelynrodriguezc/eveveneno_palindrome"
