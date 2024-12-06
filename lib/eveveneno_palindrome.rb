@@ -1,16 +1,23 @@
 require_relative "eveveneno_palindrome/version"
 
-class String
-
-  # Returns true for a palindrome, false otherwise.  def palindrome?
-  def palindrome?
-  processed_content == processed_content.reverse
-  end
-
-  private
-
-    # Returns content for palindrome testing.
-    def processed_content
-      self.scan(/[a-z]/i).join.downcase
+module EvevenenoPalindrome
+    # Returns true for a palindrome, false otherwise.  def palindrome?
+    def palindrome?
+      processed_content == processed_content.reverse
     end
+
+      private
+
+        # Returns content for palindrome testing.
+        def processed_content
+          self.to_s.scan(/[a-z\d]/i).join.downcase
+        end
+end
+
+class String
+  include EvevenenoPalindrome
+end
+
+class Integer
+  include EvevenenoPalindrome
 end
