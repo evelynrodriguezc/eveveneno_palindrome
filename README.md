@@ -7,7 +7,7 @@
 To install `eveveneno_palindrome`, add this line to your application's `Gemfile`:
 
 ```
-gem 'mhartl_palindrome'
+gem 'eveveneno_palindrome'
 ```
 
 Then install as follows:
@@ -19,7 +19,7 @@ $ bundle install
 Or install it directly using `gem`:
 
 ```
-$ gem install mhartl_palindrome
+$ gem install eveveneno_palindrome
 ```
 
 ## Usage
@@ -37,6 +37,8 @@ $ irb
 => true
 >> phrase = "Madam, I'm Adam."
 >> phrase.palindrome?
+=> true
+>> 12321.palindrome?
 => true
 ```
 
